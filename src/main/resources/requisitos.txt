@@ -1,0 +1,9 @@
+-nome
+-nascimento
+-peso
+-altura
+-pressao - inserir depois
+
+o aluno pode ter uma anamnese (entrevista) de 3 em 3 meses, ou seja, varias
+o aluno pode ter uma avalia��o f�sica, e v�rias ao longo do tempo.
+
