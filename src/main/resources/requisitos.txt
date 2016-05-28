@@ -1,3 +1,4 @@
+Aluno {
 -nome
 -nascimento
 -peso
@@ -6,4 +7,18 @@
 
 o aluno pode ter uma anamnese (entrevista) de 3 em 3 meses, ou seja, varias
 o aluno pode ter uma avalia��o f�sica, e v�rias ao longo do tempo.
+}
 
+Treino {
+    -objetivo(Tipo de treino - traz uma sequencia já pré-definida, pode ser uma enumeracao)
+    -observação
+}
+
+Sequencia de Treino {
+    ordem de sequencia (A,BC,...)
+    pode ter varios exercicios
+}
+
+Exercicio {
+    
+}
