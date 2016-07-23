@@ -7,6 +7,7 @@ package com.mycompany.fitsystem.model;
 
 import java.io.Serializable;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -41,7 +42,7 @@ public class Aluno implements Serializable {
     private String nome;
     
     @Temporal(javax.persistence.TemporalType.DATE)
-    private Calendar dataNascimento;
+    private Date dataNascimento;
     private double peso;
     private double altura;
     private String celular;
@@ -65,11 +66,11 @@ public class Aluno implements Serializable {
         this.nome = nome;
     }
 
-    public Calendar getDataNascimento() {
+    public Date getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Calendar dataNascimento) {
+    public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 

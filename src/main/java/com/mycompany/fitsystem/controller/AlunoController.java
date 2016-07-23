@@ -7,14 +7,14 @@ package com.mycompany.fitsystem.controller;
 
 import com.mycompany.fitsystem.model.Aluno;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
+import javax.enterprise.context.RequestScoped;
 
 /**
  *
  * @author raque
  */
 @Named(value = "alunoController")
-@Dependent
+@RequestScoped
 public class AlunoController {
 
     /**
